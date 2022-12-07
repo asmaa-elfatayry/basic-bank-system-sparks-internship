@@ -7,8 +7,11 @@ nav {
 .bg-light {
     background-color: $main-color !important;
     color: $almost_white;
-    height: 60px;
 }
+div#navbarNavAltMarkup {
+    z-index: 1000;
+}
+
 .navbar-brand,
 .navbar-nav .nav-link {
     color: $almost_white;

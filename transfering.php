@@ -32,6 +32,7 @@ if ($conn->connect_error) {
     <link rel="stylesheet" href="css/sweetalert2.min.css ">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.min.css" rel="styleSheet">
+    <link rel="shortcut icon" href="./images/bank_icon_129525.ico" type="image/x-icon">
     <script src="js/sweetalert2.all.min.js"></script>
     <title>Bank System</title>
 </head>
@@ -122,7 +123,7 @@ if ($conn->connect_error) {
                     icon: 'success',
                     title: 'Transferring done successfully  ',
                     showConfirmButton: false,
-                    timer: 9500
+                    timer: 1500
                 })
                 </script>
                 <?php
@@ -269,10 +270,8 @@ if ($conn->connect_error) {
     </footer>
     <!-- end footer -->
     <!-- js links -->
-    <script src="js/bootstrap.min.js">
-    < script src = "js/bootstrap.bundle.min.js"
-    integrity = "sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin = "anonymous" >
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     </script>
 
 
