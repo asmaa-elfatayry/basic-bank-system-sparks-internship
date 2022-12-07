@@ -12,20 +12,24 @@ This is a task of sparks foundation [the sparks foundation](https://internship.t
 
 ## Overview
 
-- the project contains four pages
+### the project contains four pages:
+ <ol>
+  <li>home page - welcome page</li>
+  <li>customers page - shows all the customers in the system</li>
+  <li>transfer money page - to transfer amount of money from user to anthor and to display the data of any user tou select</li>
+  <li>history page - Displays the history of all transferring</li>
+ 
+ </ol>
 
-  1 - home page -> welcome page
-  2 - customers page -> shows all the customers in the system
-  3 - transfer money page -> to transfer amount of money from user to anthor and to display the data of any user tou select
-  4 - history page -> Displays the history of all transferring
 
-- to run this project :
+### to run this project :
   - clone this project
   - then you should create two tables in mysql database the customers table and the transfers table
 
 ### Screenshot
 
 ![home page](./screenshots/homePage.png)
+<br>
 ![customers page ](./screenshots/showCustomers.png)
 ![transfer money page](./screenshots/transferAction.png)
 ![history page](./screenshots/history.png)
