@@ -1,0 +1,21 @@
+// the common styles in project
+
+$main-color: rgb(78, 94, 152);
+$text-color: #f18078;
+$almost_white: #e1e8f8;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    height: 100%;
+    position: relative;
+}
+
+h1,
+h2 {
+    color: $main-color;
+}

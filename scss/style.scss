@@ -1,0 +1,88 @@
+@import "congig";
+
+nav {
+    z-index: 1000;
+}
+// style the navbar
+.bg-light {
+    background-color: $main-color !important;
+    color: $almost_white;
+    height: 60px;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: $almost_white;
+}
+.navbar-nav .nav-link.active {
+    color: white;
+}
+.navbar-brand:hover {
+    color: white;
+}
+// style main in home page only
+main.welcome {
+    background-image: url("../images/bank.jpg");
+    height: 86vh;
+    max-width: 850px;
+
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.056);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: $text-color;
+        margin: auto;
+        margin-top: 90px;
+    }
+}
+// all container
+.container {
+    margin: 50px auto;
+}
+// style the footer
+footer {
+    background-color: $main-color;
+    color: $almost_white;
+    text-align: center;
+    // position: fixed;
+    // bottom: 0px;
+    height: 60px;
+    width: 100%;
+    padding: 20px 0 30px;
+    margin-top: 100px;
+}
+.transfer-table {
+    margin-bottom: 220px;
+}
+// buttons style
+button.btn.btn-outline-primary.transfer-btn,
+button.btn.btn-outline-success.transfer-btn.mt-3.mb-3 {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+form.container .mb-3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+input.form-control.custom {
+    width: 100px;
+}
