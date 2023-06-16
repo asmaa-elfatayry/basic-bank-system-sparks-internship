@@ -1,6 +1,6 @@
 # Sparks Internship - basik banking system
 
-This is a task of sparks foundation [the sparks foundation](https://internship.thesparksfoundation.info/). Frontend Mentor challenges help you
+This is a task of sparks foundation [the sparks foundation](https://internship.thesparksfoundation.info/). 
 
 ## Table of contents
 
